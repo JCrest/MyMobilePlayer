@@ -79,30 +79,6 @@ public class RecyclerViewFragment extends BaseFragment {
                 getMoreData();
             }
         });
-
-//        recyclerview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//
-//
-//                NetAudioInfo.ListBean listEntity = listDatas.get(position);
-//                if (listEntity != null) {
-//                    //3.传递视频列表
-//                    Intent intent = new Intent(context, PicassoSampleActivity.class);
-//                    if (listEntity.getType().equals("gif")) {
-//                        String url = listEntity.getGif().getImages().get(0);
-//                        intent.putExtra("url", url);
-//                        context.startActivity(intent);
-//                    } else if (listEntity.getType().equals("image")) {
-//                        String url = listEntity.getImage().getThumbnail_small().get(0);
-//                        intent.putExtra("url", url);
-//                        context.startActivity(intent);
-//                    }
-//                }
-//
-//
-//            }
-//        });
         return view;
     }
 
