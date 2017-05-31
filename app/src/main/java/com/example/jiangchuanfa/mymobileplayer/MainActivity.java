@@ -11,6 +11,7 @@ import com.example.jiangchuanfa.mymobileplayer.Fragmant.FragmentPage.LocalAudioF
 import com.example.jiangchuanfa.mymobileplayer.Fragmant.FragmentPage.LocalVideoFragment;
 import com.example.jiangchuanfa.mymobileplayer.Fragmant.FragmentPage.NetAudioFragment;
 import com.example.jiangchuanfa.mymobileplayer.Fragmant.FragmentPage.NetVideoFragment;
+import com.example.jiangchuanfa.mymobileplayer.Fragmant.FragmentPage.ReclyclerViewFragment;
 
 import java.util.ArrayList;
 
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.rb_net_video:
                         position = 3;
+                        break;
+                    case R.id.rb_reclycler_view:
+                        position = 4;
                         break;
                 }
 
@@ -87,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
         fragments.add(new LocalAudioFragment());
         fragments.add(new NetAudioFragment());
         fragments.add(new NetVideoFragment());
+        fragments.add(new ReclyclerViewFragment());
 
 
     }
