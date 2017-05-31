@@ -15,6 +15,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.jiangchuanfa.mymobileplayer.Activity.PicassoSampleActivity;
 import com.example.jiangchuanfa.mymobileplayer.Bean.NetAudioBean;
 import com.example.jiangchuanfa.mymobileplayer.R;
+import com.example.jiangchuanfa.mymobileplayer.Utils.Utils;
 
 import org.xutils.common.util.DensityUtil;
 import org.xutils.image.ImageOptions;
