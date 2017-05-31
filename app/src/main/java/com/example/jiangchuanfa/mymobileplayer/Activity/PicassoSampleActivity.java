@@ -12,8 +12,13 @@ import org.xutils.common.util.DensityUtil;
 import org.xutils.image.ImageOptions;
 import org.xutils.x;
 
+import uk.co.senab.photoview.PhotoView;
+import uk.co.senab.photoview.PhotoViewAttacher;
+
 /**
  * Created by crest on 2017/5/31.
+ *
+ *
  */
 
 public class PicassoSampleActivity extends AppCompatActivity {

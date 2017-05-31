@@ -27,6 +27,8 @@ import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
 
 /**
  * Created by crest on 2017/5/31.
+ *
+ *
  */
 
 public class RecyclerFragmentAdapter extends RecyclerView.Adapter {

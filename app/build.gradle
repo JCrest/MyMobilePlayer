@@ -38,4 +38,5 @@ dependencies {
     compile 'fm.jiecao:jiecaovideoplayer:4.8.3'
     testCompile 'org.testng:testng:6.9.6'
     compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile project(':PhotoView_library')
 }
